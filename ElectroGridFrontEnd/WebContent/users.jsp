@@ -52,14 +52,14 @@ pageEncoding="ISO-8859-1"%>
 <div>
 
 <section class="vh-100 bg-image"
-  style="background-image: url('https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp');">
+  style="background-color: #eee;">
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
           <div class="card" style="border-radius: 15px;">
             <div class="card-body p-5">
-              <h2 class="text-uppercase text-center mb-5">Create an account</h2>
+              <h2 class="text-uppercase text-center mb-5">ADD NEW USER</h2>
 
               <form id="formItem" name="formItem" class="mx-1 mx-md-4">
 
@@ -96,7 +96,7 @@ pageEncoding="ISO-8859-1"%>
                 </div>
 
 
-
+<a href="userdet.jsp" align="center">View registered users</a>
               </form>
 
             </div>
@@ -106,8 +106,8 @@ pageEncoding="ISO-8859-1"%>
     </div>
   </div>
   
-  <center>
-  <div id="alertSuccess" class="alert alert-success"></div>
+<center>
+  <div id="alertSuccess" class="alert alert-primary"></div>
 	<div id="alertError" class="alert alert-danger"></div>
 
 	<br>
