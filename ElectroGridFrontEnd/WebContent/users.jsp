@@ -87,7 +87,7 @@ pageEncoding="ISO-8859-1"%>
 
                 <div class="d-flex justify-content-center">
                   
-                    <input id="btnSave" name="btnSave" type="button" value="Add User" class="btn btn-secondary btn-rounded btn-block">
+                    <input id="btnSave" name="btnSave" type="button" value="Register" class="btn btn-secondary btn-rounded btn-block">
  		<input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
                 </div>
               </form>
