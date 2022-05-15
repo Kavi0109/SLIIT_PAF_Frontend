@@ -52,60 +52,58 @@ pageEncoding="ISO-8859-1"%>
 <div>
 
 <section class="vh-100 bg-image"
-  style="background-color: #eee;">
+  style="background-color: #EFD3E4;
+          background-image: url(https://mdbootstrap.com/img/Photos/new-templates/search-box/img1.jpg);"><br><br>
   <div class="mask d-flex align-items-center h-100 gradient-custom-3">
     <div class="container h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-9 col-lg-7 col-xl-6">
           <div class="card" style="border-radius: 15px;">
             <div class="card-body p-5">
-              <h2 class="text-uppercase text-center mb-5">ADD NEW USER</h2>
+              <h2 class="text-center mb-5">Registration Form</h2>
 
               <form id="formItem" name="formItem" class="mx-1 mx-md-4">
 
                 <div class="form-outline mb-4">
-                  <input id="name" name="name" type="text" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example1cg">Full Name</label>
+                  <input id="name" name="name" type="text" class="form-control form-control-lg" placeholder="Full Name" />
                 </div>
 
                 <div class="form-outline mb-4">
-                  <input id="email" name="email" type="text" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example3cg">Email Address</label>
+                  <input id="email" name="email" type="text" class="form-control form-control-lg" placeholder="Email Address" />
                 </div>
 
                 <div class="form-outline mb-4">
-                  <input id="pass" name="pass" type="password" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cg">Password</label>
+                  <input id="pass" name="pass" type="password" class="form-control form-control-lg" placeholder="Password"/>
                 </div>
 
                 <div class="form-outline mb-4">
-                  <input id="mobile" name="mobile" type="text" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cdg">Mobile No</label>
+                  <input id="mobile" name="mobile" type="text" class="form-control form-control-lg" placeholder="Contact Number" />
                 </div>
                 
                 <div class="form-outline mb-4">
-                  <input id="type" name="type" type="text" class="form-control form-control-lg" />
-                  <label class="form-label" for="form3Example4cdg">User Type</label>
+                  <input id="type" name="type" type="text" class="form-control form-control-lg" placeholder="User Type" />
                 </div>
 
 
                 <div class="d-flex justify-content-center">
                   
-                    <input id="btnSave" name="btnSave" type="button" value="Add User" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">
+                    <input id="btnSave" name="btnSave" type="button" value="Add User" class="btn btn-secondary btn-rounded btn-block">
  		<input type="hidden" id="hidItemIDSave" name="hidItemIDSave" value="">
                 </div>
-
-
-<a href="userdet.jsp" align="center">View registered users</a>
               </form>
+              
 
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          </div><br><br>
+        </div><br><br>
+      </div><br><br>
+    </div><br><br>
+    <br><br>
   </div>
   
+
+</section>
+
 <center>
   <div id="alertSuccess" class="alert alert-primary"></div>
 	<div id="alertError" class="alert alert-danger"></div>
@@ -118,11 +116,8 @@ pageEncoding="ISO-8859-1"%>
  		%>
 	</div>
 	</center>
-</section>
 
-
-
-</div>
+</div><br><br><br><br>
 </section>
 </body>
 </html>
